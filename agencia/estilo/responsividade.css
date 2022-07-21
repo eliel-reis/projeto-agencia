@@ -1,0 +1,42 @@
+@media screen and (max-width: 934px){
+    .menu{
+        display: none;
+    }
+
+    header{
+        position: relative;
+    }
+
+    .titulo{
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 46px;
+    }
+
+    main{
+       flex-direction: column;
+    }
+
+    .part1{
+        margin-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .part2{
+        margin-right: 0;
+        text-align: center;
+
+    }
+
+    aside{
+        flex-direction: column;
+    }
+
+    .whats{
+        display: none;
+    }
+
+
+}

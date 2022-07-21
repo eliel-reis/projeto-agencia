@@ -52,6 +52,11 @@ nav > a{
     font-size: 20px;
 }
 
+nav > a:hover{
+    color: #FF2978;
+    border-top: 4px solid #180F4A;
+}
+
 .botao{
     text-decoration: none;
     color: white;
@@ -59,6 +64,10 @@ nav > a{
     padding: 6px 16px;
     border-radius: 5px;
     font-size: 20px;
+}
+
+.botao:hover{
+    background-color: #FF2978;
 }
 
 main{
@@ -105,6 +114,10 @@ main{
     margin-top: 25px;
 }
 
+.botao1:hover{
+    background-color: #180F4A;
+}
+
 img{
     width: 80%;
 }
@@ -126,13 +139,41 @@ aside{
     margin-bottom: 15%;
 }
 
-.blocos{
+.blocos-total{
     border: 1px solid #FF2978;
     border-radius: 8px;
     margin: 10px;
     padding: 20px;
     text-align: center;
 }
+
+.blocos-oculto{
+    display: none;
+
+}
+
+.blocos-oculto > h3{
+    padding: 20px;
+}
+
+.blocos-total:hover .blocos{
+    display: none;
+}
+
+.blocos-total:hover .blocos-oculto{
+    display: block;
+    padding: 20px;
+    text-align: justify;
+    text-align: center;
+}
+
+.blocos-total:hover{
+    background-color: #FF2978;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+
 
 .img22{
     width: 70px;
